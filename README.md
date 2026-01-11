@@ -64,7 +64,7 @@ require('ayu').setup({
 
 ```lua
 local colors = require('ayu.colors')
-colors.generate() -- Pass `true` to enable mirage
+colors:generate() -- Pass `true` to enable mirage
 
 require('ayu').setup({
   overrides = {
