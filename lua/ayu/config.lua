@@ -2,6 +2,7 @@ local config = {
   defaults = {
     mirage = false,
     terminal = true,
+    palette = {},
     overrides = {},
   },
 }

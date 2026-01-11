@@ -462,7 +462,8 @@ function ayu.colorscheme()
   vim.o.termguicolors = true
   vim.g.colors_name = 'ayu'
 
-  colors.generate(config.mirage)
+  colors:generate(config.mirage)
+  colors:apply_overrides(config.palette or {})
   if config.terminal then
     set_terminal_colors()
   end
