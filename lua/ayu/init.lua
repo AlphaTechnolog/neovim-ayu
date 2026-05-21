@@ -132,6 +132,9 @@ local function set_groups()
     ['@markup.heading'] = { fg = colors.keyword },
     ['@keyword.storage'] = { fg = colors.keyword },
 
+    ['@punctuation.bracket'] = { fg = colors.fg_idle },
+    ['@punctuation.delimiter'] = { fg = colors.fg_idle },
+
     ['@lsp.type.namespace'] = { link = '@module' },
     ['@lsp.type.type'] = { link = '@type' },
     ['@lsp.type.class'] = { link = '@type' },
