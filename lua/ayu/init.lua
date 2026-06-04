@@ -84,7 +84,7 @@ local function set_groups()
     Type = { fg = colors.entity },
     Structure = { fg = colors.special },
     Special = { fg = colors.accent },
-    Delimiter = { fg = colors.special },
+    Delimiter = { fg = colors.fg_idle },
     Underlined = { sp = colors.tag, underline = true },
     Ignore = { fg = colors.fg },
     Error = { fg = colors.white, bg = colors.error },
